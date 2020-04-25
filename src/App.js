@@ -15,7 +15,7 @@ function App() {
       <Router>
         <div>
           <NavBar />
-          {/* <Landing/> */}
+          {/* <Landing/>test comiit.... */}
           <Route exact path="/" component={Landing}/>
           <Route exact path="/movie/abc/:id" component={Movie}/>
           <Footer />
